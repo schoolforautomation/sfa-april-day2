@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Maven Suite" verbose="1" >
+
+    <test name="Before" >
+        <classes>
+            <class name="Config" />
+        </classes>
+    </test>
+
+    <test name="Test1" >
+        <classes>
+            <class name="FirstTest" />
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="SecondTest"/>
+        </classes>
+    </test>
+</suite>
